@@ -26,7 +26,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 33
-    namespace = "com.namit.presentation_displays"
+    namespace "com.namit.presentation_displays"
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
