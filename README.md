@@ -70,10 +70,10 @@ You can take a look at our example to learn more about how the plugin works
 
 *********************
 change build gradle to
-compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
-    }
+    compileOptions {
+          sourceCompatibility JavaVersion.VERSION_17
+          targetCompatibility JavaVersion.VERSION_17
+      }
 
     tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
     kotlinOptions {
@@ -83,7 +83,7 @@ compileOptions {
 
 
     and settings.gradle 
-plugins {
-   ...
-    id "org.jetbrains.kotlin.android" version "1.7.20" apply false
-}
+    plugins {
+     ...
+     id "org.jetbrains.kotlin.android" version "1.7.20" apply false
+     }
