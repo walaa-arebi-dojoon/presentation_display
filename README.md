@@ -70,6 +70,7 @@ You can take a look at our example to learn more about how the plugin works
 
 *********************
 change build gradle to
+
     compileOptions {
           sourceCompatibility JavaVersion.VERSION_17
           targetCompatibility JavaVersion.VERSION_17
