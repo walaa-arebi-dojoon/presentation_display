@@ -37,16 +37,8 @@ android {
         disable 'InvalidPackage'
     }
 
-    java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(18)
-    }
-    }
-
-    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
-      kotlinOptions {
-          jvmTarget = '18'
-      }
+    kotlinOptions {
+        jvmTarget = '1.8'
     }
 }
 
