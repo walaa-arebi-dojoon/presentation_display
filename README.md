@@ -68,20 +68,6 @@ You can take a look at our example to learn more about how the plugin works
 ![The example app running in android](https://github.com/VNAPNIC/presentation-displays/blob/master/Sequence_small.gif?raw=true)
 
 
-*********************
-change build gradle to
-
-    compileOptions {
-          sourceCompatibility JavaVersion.VERSION_17
-          targetCompatibility JavaVersion.VERSION_17
-      }
-
-    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
-    kotlinOptions {
-        jvmTarget = "17"
-    }
-    }
-
 
     and settings.gradle 
     plugins {
